@@ -1,0 +1,85 @@
+@mixin container{
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+    padding: 0 32px;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin orange {
+    display: flex;
+    gap: 8px;
+}
+
+@mixin h2-tag{
+    font-family: $font-family1;
+    font-size: 45px;
+}
+
+@mixin p-tag {
+    font-family: $font-family2;
+    font-size: 15px;
+    color: $color-5;
+}
+
+@mixin gap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@mixin a-tag{
+    text-decoration: none;
+    color: $color-3;
+    font-family: $font-family1;
+    font-size: 18px;
+}
+
+@mixin span {
+    padding: 12px 32px;
+    background-color: $color-1;
+    border-radius: 8px;
+    transition: all .3s ease;
+}
+
+@mixin a-hover {
+    background-color: $color-2;
+    cursor: pointer;
+    color: $color-1;
+}
+
+@mixin h4-tag {
+    font-family: $font-family1;
+    color: $color-3;
+    font-size: 22px;
+}
+
+@mixin my {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+@mixin ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+@mixin li {
+    list-style-type: none;
+    font-family: $font-family2;
+    color: $color-3;
+    transition: all .3s ease;
+}
