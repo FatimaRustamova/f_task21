@@ -50,7 +50,7 @@
     padding: 12px 32px;
     background-color: $color-1;
     border-radius: 8px;
-    transition: all .3s ease;
+    transition: all .5s ease;
 }
 
 @mixin a-hover {
@@ -81,5 +81,5 @@
     list-style-type: none;
     font-family: $font-family2;
     color: $color-3;
-    transition: all .3s ease;
+    transition: all .5s ease;
 }
